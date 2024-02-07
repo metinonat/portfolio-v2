@@ -14,6 +14,53 @@ const PROFILE = {
       href: "https://github.com/metinonat",
     },
   ],
+  education: [
+    {
+      title: "Feb 2024 - Present",
+      cardTitle: "M.Sc. in Cryptography",
+      cardSubtitle:
+        "Institute of Applied Mathematics, Middle East Technical University (METU)",
+      cardDetailedText: "Currently pursuing a Master's degree in Cryptography.",
+      url: "https://iam.metu.edu.tr/",
+      media: {
+        type: "IMAGE",
+        name: "METU",
+        source: {
+          url: "https://www.metu.edu.tr/system/files/logo_orj/7/7.3.jpg",
+        },
+      },
+    },
+    {
+      title: "Sep 2017 - Jul 2023",
+      cardTitle: "B.Sc. in Computer Engineering",
+      cardSubtitle:
+        "Department of Computer Engineering, Middle East Technical University",
+      cardDetailedText: "",
+      url: "https://ceng.metu.edu.tr/",
+      media: {
+        type: "IMAGE",
+        name: "METU",
+        source: {
+          url: "https://www.metu.edu.tr/system/files/logo_orj/7/7.3.jpg",
+        },
+      },
+    },
+    {
+      title: "Sep 2016 - Jun 2017",
+      cardTitle: "English Preparatory School",
+      cardSubtitle:
+        "Department of Basic English, Middle East Technical University",
+      cardDetailedText: "",
+      url: "https://dbe.metu.edu.tr/",
+      media: {
+        type: "IMAGE",
+        name: "METU",
+        source: {
+          url: "https://www.metu.edu.tr/system/files/logo_orj/7/7.3.jpg",
+        },
+      },
+    },
+  ],
   skills: [
     {
       header: "Languages & Databases",
