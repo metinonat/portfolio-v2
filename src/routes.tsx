@@ -1,6 +1,7 @@
 import { Route, Routes as Router } from "react-router-dom";
 import MainLayout from "./layout";
-import NotFound from "./pages/not-found";
+import NotFound from "./pages/Not-found";
+import Home from "./pages/Home";
 
 const Routes = (): JSX.Element => {
   return (
@@ -8,7 +9,7 @@ const Routes = (): JSX.Element => {
       <Route path="*" element={<NotFound />} />
 
       <Route element={<MainLayout />}>
-        <Route path="/" />
+        <Route path="/" element={<Home />} />
         <Route path="/about" />
         <Route path="/skills" />
         <Route path="/Education" />
