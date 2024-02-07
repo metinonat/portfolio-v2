@@ -1,10 +1,10 @@
 import { SocialIcon } from "react-social-icons";
-import { SOCIAL_ACCOUNT } from "../utils/constants";
+import PROFILE from "../utils/profile";
 
 export default function Social(): JSX.Element {
   return (
     <div className="social">
-      {SOCIAL_ACCOUNT.map((social) => (
+      {PROFILE.socialAccounts.map((social) => (
         <SocialIcon
           key={social.network}
           url={social.href}
