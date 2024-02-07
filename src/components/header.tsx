@@ -11,6 +11,7 @@ export default function Header(): JSX.Element {
           <ul className="inline-flex text-gray-500 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold cursor-pointer">
             {NAVIGATION.map((item) => (
               <Link
+                key={item.name}
                 to={item.href}
                 className={classNames(
                   isCurrent(item.href, pathname)

@@ -3,6 +3,7 @@ import MainLayout from "./layout";
 import NotFound from "./pages/Not-found";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Skills from "./pages/Skills";
 
 const Routes = (): JSX.Element => {
   return (
@@ -12,7 +13,7 @@ const Routes = (): JSX.Element => {
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/skills" />
+        <Route path="/skills" element={<Skills />} />
         <Route path="/Education" />
         <Route path="/Experience" />
         <Route path="/Projects" />
