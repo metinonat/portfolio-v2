@@ -1,4 +1,26 @@
-const PROFILE = {
+import { TimelineItemModel } from "react-chrono/dist/models/TimelineItemModel";
+
+type Profile = {
+  name: string;
+  image: string;
+  roles: string[];
+  summary: string;
+  socialAccounts: {
+    network: string;
+    href: string;
+  }[];
+  education: TimelineItemModel[];
+  experiences: TimelineItemModel[];
+  skills: {
+    header: string;
+    items: {
+      name: string;
+      icon: string;
+    }[];
+  }[];
+};
+
+const PROFILE: Profile = {
   name: "METIN ONAT ÇUKUR",
   image: "/images/me.jpg",
   roles: ["a Software Engineer", "a Node.js Developer"],
@@ -57,6 +79,68 @@ const PROFILE = {
         name: "METU",
         source: {
           url: "https://www.metu.edu.tr/system/files/logo_orj/7/7.3.jpg",
+        },
+      },
+    },
+  ],
+  experiences: [
+    {
+      title: "Nov 2023 - Present",
+      cardTitle: "Software Engineer",
+      cardSubtitle: "Via Scientific Inc., Massachusetts, USA",
+      cardDetailedText: [
+        "Worked in a docker image builder. Modernized legacy system written in PHP to a Node.js application and contributed to frontend to some degree.",
+      ],
+      media: {
+        type: "IMAGE",
+        name: "Via Scientific Inc.",
+        source: {
+          url: "https://cdn-iajnp.nitrocdn.com/AxLOWXCCuwkEscbEpqXkrVYrmXRiRreX/assets/images/optimized/rev-40baf27/www.viascientific.com/wp-content/uploads/2022/12/footer-icon.svg",
+        },
+      },
+    },
+    {
+      title: "Oct 2022 - Oct 2023",
+      cardTitle: "Software Engineer",
+      cardSubtitle: "Armon Technology Inc., Ankara, Turkiye",
+      cardDetailedText: [
+        "Worked in both legacy and modern systems. Modernized visitor module and notification system of product. In the scope of visitor module, also revised intercom module.",
+      ],
+      media: {
+        type: "IMAGE",
+        name: "Armongate",
+        source: {
+          url: "https://static.wixstatic.com/media/e24cba_dee2ef171c724a44b471c2571d1c1b97~mv2.png/v1/crop/x_102,y_0,w_1075,h_400/fill/w_205,h_76,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/armongate_light_logo.png",
+        },
+      },
+    },
+    {
+      title: "Jul 2020 - Sep 2020",
+      cardTitle: "Embedded Systems Engineer Intern",
+      cardSubtitle: "Elsitel Elektronic Systems Inc., Ankara, Turkiye",
+      cardDetailedText: [
+        "Worked on several STM32 microchips and sensors. Developed a railroad crossing barrier driver with C on a STM32 microchip",
+      ],
+      media: {
+        type: "IMAGE",
+        name: "Elsitel",
+        source: {
+          url: "https://www.elsitel.com.tr/wp-content/uploads/2024/01/LogoSVG-1.svg",
+        },
+      },
+    },
+    {
+      title: "Jun 2019 - Sep 2019",
+      cardTitle: "Game Developer Intern",
+      cardSubtitle: "Creasaur Inc., Ankara, Turkiye",
+      cardDetailedText: [
+        "Been a part of two whole game development processes from game design to testing as a game developer with a team of three game developers and one graphic designer",
+      ],
+      media: {
+        type: "IMAGE",
+        name: "Creasaur",
+        source: {
+          url: "https://creasaur.net/wp-content/uploads/2019/11/logo.png",
         },
       },
     },

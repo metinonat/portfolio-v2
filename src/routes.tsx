@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
+import Experience from "./pages/Experience";
 
 const Routes = (): JSX.Element => {
   return (
@@ -16,7 +17,7 @@ const Routes = (): JSX.Element => {
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/Education" element={<Education />} />
-        <Route path="/Experience" />
+        <Route path="/Experience" element={<Experience />} />
         <Route path="/Projects" />
       </Route>
     </Router>
