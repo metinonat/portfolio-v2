@@ -1,24 +1,4 @@
-import { TimelineItemModel } from "react-chrono/dist/models/TimelineItemModel";
-
-type Profile = {
-  name: string;
-  image: string;
-  roles: string[];
-  summary: string;
-  socialAccounts: {
-    network: string;
-    href: string;
-  }[];
-  education: TimelineItemModel[];
-  experiences: TimelineItemModel[];
-  skills: {
-    header: string;
-    items: {
-      name: string;
-      icon: string;
-    }[];
-  }[];
-};
+import { Profile } from "@/types/profile";
 
 const PROFILE: Profile = {
   name: "METIN ONAT ÇUKUR",
@@ -180,6 +160,42 @@ const PROFILE: Profile = {
         { name: "AWS", icon: "/images/skills/aws.svg" },
         { name: "Git", icon: "/images/skills/git.svg" },
       ],
+    },
+  ],
+  projects: [
+    {
+      title: "Portfolio v2",
+      description:
+        "Personal portfolio website built with React. It is a single-page application with a modern design and a responsive layout. ",
+      image: "/images/projects/portfolio.png",
+      url: "http://localhost:5173/",
+      tags: ["Node.js", "React"],
+    },
+    {
+      title: "Drowsiness Detector",
+      description:
+        "A project to lower cost of driver drowsiness detection systems and make it more accessible. Detection is done by mobile phone and web client provides detailed reports, analytics, and fleet management.",
+      url: "https://senior.ceng.metu.edu.tr/2021/drowsiness_detector/",
+      image: "/images/projects/drowsiness-detector.png",
+      tags: [
+        "Docker",
+        "React",
+        "Redis",
+        "PostgreSQL",
+        "Android Studio",
+        ".Net Core",
+        "Java",
+        "MLKit",
+      ],
+    },
+    {
+      title: "Portfolio v1",
+      description:
+        "Personal portfolio built in basic HTML, CSS, and JavaScript.",
+      image: "/images/projects/portfolio-v1.png",
+      url: "https://metinonat.github.io/Portfolio-v1/",
+      source: "https://github.com/metinonat/Portfolio-v1",
+      tags: ["Javascript", "HTML", "CSS"],
     },
   ],
 };
