@@ -7,13 +7,12 @@ export default defineConfig({
   plugins: [react(), svgr()],
   resolve: {
     alias: {
-      "@/api": "/src/api",
-      "@/components": "/src/components",
-      "@/context": "/src/context",
-      "@/hooks": "/src/hooks",
-      "@/pages": "/src/pages",
-      "@/utils": "/src/utils",
-      "@/types": "/src/types",
+      "@/api": "./src/api",
+      "@/components": "./src/components",
+      "@/assets": "./src/assets",
+      "@/pages": "./src/pages",
+      "@/utils": "./src/utils",
+      "@/types": "./src/types",
     },
   },
 });
