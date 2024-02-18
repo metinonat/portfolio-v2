@@ -10,11 +10,18 @@ export type Project = {
 };
 
 export type Skill = {
+  name: string;
+  icon: string;
+}
+
+export type SkillWrapper = {
   header: string;
-  items: {
-    name: string;
-    icon: string;
-  }[];
+  items: Skill[];
+};
+
+export type SocialAccount = {
+  network: string;
+  href: string;
 };
 
 export type Profile = {
@@ -22,12 +29,9 @@ export type Profile = {
   image: string;
   roles: string[];
   summary: string;
-  socialAccounts: {
-    network: string;
-    href: string;
-  }[];
+  socialAccounts: SocialAccount[];
   education: TimelineItemModel[];
   experiences: TimelineItemModel[];
-  skills: Skill[];
+  skills: SkillWrapper[];
   projects: Project[];
 };

@@ -1,6 +1,6 @@
 import { Profile } from "@/types/profile";
 
-const PROFILE: Profile = {
+export const PROFILE: Profile = {
   name: "METIN ONAT ÇUKUR",
   image: "/images/me.jpg",
   roles: ["a Software Engineer", "a Node.js Developer"],
@@ -199,5 +199,3 @@ const PROFILE: Profile = {
     },
   ],
 };
-
-export default PROFILE;

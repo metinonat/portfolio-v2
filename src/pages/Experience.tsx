@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Fade from "react-awesome-reveal";
 import { Chrono } from "react-chrono";
-import PROFILE from "@/utils/profile";
+import {PROFILE} from "../utils/profile";
 
 export default function Experience(): JSX.Element {
   const [width, setWidth] = useState("50vw");

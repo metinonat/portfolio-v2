@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Chrono } from "react-chrono";
 import Fade from "react-awesome-reveal";
-import PROFILE from "@/utils/profile";
+import { PROFILE } from "../utils/profile";
 
 export default function Education(): JSX.Element {
   const [width, setWidth] = useState("50vw");

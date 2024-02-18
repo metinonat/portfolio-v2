@@ -1,5 +1,5 @@
 import Fade from "react-awesome-reveal";
-import PROFILE from "../utils/profile";
+import { PROFILE } from "../utils/profile";
 
 export default function About(): JSX.Element {
   return (

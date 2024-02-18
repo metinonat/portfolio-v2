@@ -1,6 +1,6 @@
 import { useState } from "react";
-import PROFILE from "@/utils/profile";
-import { Project } from "@/types/profile";
+import {PROFILE} from "../utils/profile";
+import { Project } from "../types/profile";
 
 export default function Projects() {
   const [showMore, setShowMore] = useState(false);

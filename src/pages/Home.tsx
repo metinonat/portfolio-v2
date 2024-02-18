@@ -1,7 +1,7 @@
 import Typewriter from "typewriter-effect";
 import Fade from "react-awesome-reveal";
 import Social from "../components/Social";
-import PROFILE from "../utils/profile";
+import { PROFILE } from "../utils/profile";
 
 export default function Home(): JSX.Element {
   return (
