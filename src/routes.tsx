@@ -1,12 +1,12 @@
 import { Route, Routes as Router } from "react-router-dom";
 import MainLayout from "./layout";
-import NotFound from "./pages/Not-found";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Skills from "./pages/Skills";
-import Education from "./pages/Education";
-import Experience from "./pages/Experience";
-import Projects from "./pages/Projects";
+import NotFound from "./Pages/Not-found";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Skills from "./Pages/Skills";
+import Education from "./Pages/Education";
+import Experience from "./Pages/Experience";
+import Projects from "./Pages/Projects";
 
 const Routes = (): JSX.Element => {
   return (
