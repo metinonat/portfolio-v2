@@ -2,7 +2,7 @@ import { Profile } from "@/types/profile";
 
 export const PROFILE: Profile = {
   name: "METIN ONAT ÇUKUR",
-  image: "/images/me.jpg",
+  image: "/portfolio-v2/images/me.jpg",
   roles: ["a Software Engineer", "a Node.js Developer"],
   summary:
     "Passionate Software Engineer with a strong foundation in backend development and expertise in modern technologies such as React, Node.js, Docker, and AWS. Currently pursuing a Master's in Cryptography.",
@@ -75,7 +75,7 @@ export const PROFILE: Profile = {
         type: "IMAGE",
         name: "Via Scientific Inc.",
         source: {
-          url: "https://cdn-iajnp.nitrocdn.com/AxLOWXCCuwkEscbEpqXkrVYrmXRiRreX/assets/images/optimized/rev-40baf27/www.viascientific.com/wp-content/uploads/2022/12/footer-icon.svg",
+          url: "https://cdn-iajnp.nitrocdn.com/AxLOWXCCuwkEscbEpqXkrVYrmXRiRreX/assets/portfolio-v2/images/optimized/rev-40baf27/www.viascientific.com/wp-content/uploads/2022/12/footer-icon.svg",
         },
       },
     },
@@ -129,36 +129,36 @@ export const PROFILE: Profile = {
     {
       header: "Languages & Databases",
       items: [
-        { name: "PHP", icon: "/images/skills/php.svg" },
-        { name: "TypeScript", icon: "/images/skills/ts.svg" },
-        { name: "JavaScript", icon: "/images/skills/js.svg" },
-        { name: "Pyhton", icon: "/images/skills/python.svg" },
-        { name: "C++", icon: "/images/skills/cpp.svg" },
-        { name: "C", icon: "/images/skills/c.svg" },
-        { name: "PostgreSQL", icon: "/images/skills/pg.svg" },
-        { name: "MySQL", icon: "/images/skills/mysql.svg" },
-        { name: "MongoDB", icon: "/images/skills/mongo.svg" },
+        { name: "PHP", icon: "/portfolio-v2/images/skills/php.svg" },
+        { name: "TypeScript", icon: "/portfolio-v2/images/skills/ts.svg" },
+        { name: "JavaScript", icon: "/portfolio-v2/images/skills/js.svg" },
+        { name: "Pyhton", icon: "/portfolio-v2/images/skills/python.svg" },
+        { name: "C++", icon: "/portfolio-v2/images/skills/cpp.svg" },
+        { name: "C", icon: "/portfolio-v2/images/skills/c.svg" },
+        { name: "PostgreSQL", icon: "/portfolio-v2/images/skills/pg.svg" },
+        { name: "MySQL", icon: "/portfolio-v2/images/skills/mysql.svg" },
+        { name: "MongoDB", icon: "/portfolio-v2/images/skills/mongo.svg" },
       ],
     },
     {
       header: "Frameworks & Libraries",
       items: [
-        { name: "Node.js", icon: "/images/skills/node.svg" },
-        { name: "Express", icon: "/images/skills/express.svg" },
-        { name: "Jest", icon: "/images/skills/jest.svg" },
-        { name: "React", icon: "/images/skills/react.svg" },
-        { name: "Laravel", icon: "/images/skills/laravel.svg" },
-        { name: "Lumen", icon: "/images/skills/lumen.svg" },
-        { name: "Django", icon: "/images/skills/django.svg" },
-        { name: "Nuxt.js", icon: "/images/skills/nuxt.svg" },
+        { name: "Node.js", icon: "/portfolio-v2/images/skills/node.svg" },
+        { name: "Express", icon: "/portfolio-v2/images/skills/express.svg" },
+        { name: "Jest", icon: "/portfolio-v2/images/skills/jest.svg" },
+        { name: "React", icon: "/portfolio-v2/images/skills/react.svg" },
+        { name: "Laravel", icon: "/portfolio-v2/images/skills/laravel.svg" },
+        { name: "Lumen", icon: "/portfolio-v2/images/skills/lumen.svg" },
+        { name: "Django", icon: "/portfolio-v2/images/skills/django.svg" },
+        { name: "Nuxt.js", icon: "/portfolio-v2/images/skills/nuxt.svg" },
       ],
     },
     {
       header: "Tools & Platforms",
       items: [
-        { name: "Docker", icon: "/images/skills/docker.svg" },
-        { name: "AWS", icon: "/images/skills/aws.svg" },
-        { name: "Git", icon: "/images/skills/git.svg" },
+        { name: "Docker", icon: "/portfolio-v2/images/skills/docker.svg" },
+        { name: "AWS", icon: "/portfolio-v2/images/skills/aws.svg" },
+        { name: "Git", icon: "/portfolio-v2/images/skills/git.svg" },
       ],
     },
   ],
@@ -167,7 +167,7 @@ export const PROFILE: Profile = {
       title: "Portfolio v2",
       description:
         "Personal portfolio website built with React. It is a single-page application with a modern design and a responsive layout. ",
-      image: "/images/projects/portfolio.png",
+      image: "/portfolio-v2/images/projects/portfolio.png",
       url: "http://localhost:5173/",
       tags: ["Node.js", "React"],
     },
@@ -176,7 +176,7 @@ export const PROFILE: Profile = {
       description:
         "A project to lower cost of driver drowsiness detection systems and make it more accessible. Detection is done by mobile phone and web client provides detailed reports, analytics, and fleet management.",
       url: "https://senior.ceng.metu.edu.tr/2021/drowsiness_detector/",
-      image: "/images/projects/drowsiness-detector.png",
+      image: "/portfolio-v2/images/projects/drowsiness-detector.png",
       tags: [
         "Docker",
         "React",
@@ -192,7 +192,7 @@ export const PROFILE: Profile = {
       title: "Portfolio v1",
       description:
         "Personal portfolio built in basic HTML, CSS, and JavaScript.",
-      image: "/images/projects/portfolio-v1.png",
+      image: "/portfolio-v2/images/projects/portfolio-v1.png",
       url: "https://metinonat.github.io/Portfolio-v1/",
       source: "https://github.com/metinonat/Portfolio-v1",
       tags: ["Javascript", "HTML", "CSS"],
