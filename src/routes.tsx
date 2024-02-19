@@ -14,12 +14,12 @@ const Routes = (): JSX.Element => {
       <Route path="*" element={<NotFound />} />
 
       <Route element={<MainLayout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/Education" element={<Education />} />
-        <Route path="/Experience" element={<Experience />} />
-        <Route path="/Projects" element={<Projects />} />
+        <Route path="/portfolio-v2/" element={<Home />} />
+        <Route path="/portfolio-v2/about" element={<About />} />
+        <Route path="/portfolio-v2/skills" element={<Skills />} />
+        <Route path="/portfolio-v2/Education" element={<Education />} />
+        <Route path="/portfolio-v2/Experience" element={<Experience />} />
+        <Route path="/portfolio-v2/Projects" element={<Projects />} />
       </Route>
     </Router>
   );

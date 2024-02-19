@@ -169,7 +169,7 @@ export const PROFILE: Profile = {
         "Personal portfolio website built with React. It is a single-page application with a modern design and a responsive layout. ",
       image: "/portfolio-v2/images/projects/portfolio.png",
       url: "https://metinonat.github.io/",
-      source: "https://github.com/metinonat/portfolio-v1",
+      source: "https://github.com/metinonat/portfolio-v2",
       tags: ["Node.js", "React"],
     },
     {
