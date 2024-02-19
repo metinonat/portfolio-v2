@@ -75,7 +75,7 @@ export const PROFILE: Profile = {
         type: "IMAGE",
         name: "Via Scientific Inc.",
         source: {
-          url: "https://cdn-iajnp.nitrocdn.com/AxLOWXCCuwkEscbEpqXkrVYrmXRiRreX/assets/portfolio-v2/images/optimized/rev-40baf27/www.viascientific.com/wp-content/uploads/2022/12/footer-icon.svg",
+          url: "https://cdn-iajnp.nitrocdn.com/AxLOWXCCuwkEscbEpqXkrVYrmXRiRreX/assets/images/optimized/rev-40baf27/www.viascientific.com/wp-content/uploads/2022/12/footer-icon.svg",
         },
       },
     },
@@ -168,7 +168,7 @@ export const PROFILE: Profile = {
       description:
         "Personal portfolio website built with React. It is a single-page application with a modern design and a responsive layout. ",
       image: "/portfolio-v2/images/projects/portfolio.png",
-      url: "https://metinonat.github.io/",
+      url: "https://metinonat.github.io/portfolio-v2/",
       source: "https://github.com/metinonat/portfolio-v2",
       tags: ["Node.js", "React"],
     },
