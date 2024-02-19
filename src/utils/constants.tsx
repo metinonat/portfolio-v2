@@ -8,12 +8,12 @@ import {
 } from "@heroicons/react/24/outline";
 
 export const ROUTES = {
-  HOME: "/",
-  ABOUT: "/about",
-  SKILLS: "/skills",
-  EDUCATION: "/education",
-  EXPERIENCE: "/experience",
-  PROJECTS: "/projects",
+  HOME: "/portfolio-v2/",
+  ABOUT: "/portfolio-v2/about",
+  SKILLS: "/portfolio-v2/skills",
+  EDUCATION: "/portfolio-v2/education",
+  EXPERIENCE: "/portfolio-v2/experience",
+  PROJECTS: "/portfolio-v2/projects",
 };
 
 export const PAGE_NAMES = {
